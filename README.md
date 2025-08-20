@@ -80,72 +80,82 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-'''
+```
 MOV AX, 0F09h
 MOV BX, 7EF6h
 ADD AX,BX
-'''
+```
 
 
 ## Output  
  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8a592523-6ed4-4f6f-a390-98386e5af90e" />
 
 ## Subtraction   of 8 bit numbers  ALP 
+```
 MOV AX, 65h
 MOV BX, 42h
 SUB AX,BX
-
+```
 
 ## Output  
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/64033b93-2a35-414d-ba18-7e3afa847df6" />
 
 ## Multiplication alp 
+```
 MOV AX, 9h
 MOV BX, 12h
 MUL BX
-
+```
 
 ## Output  
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/76c2d69e-04a3-45e0-82b2-6aa7bc51d6c5" />
 
-## Division alp 
+## Division alp
+```
 MOV AX, 024h
 MOV BX, 012h
 DIV BX
-
+```
 
 ## Output  
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/78edcbb8-4661-4906-8d1b-f89a9825bbba" />
 
 ## AND alp
+```
 MOV AX, 08h
 MOV BX, 0Ah
 AND AX,BX
+```
 
 ## Output
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c82bdaa-af0b-4694-a36e-554acc2f4e26" />
 
 ## OR alp
+```
 MOV AX, 0Fh
 MOV BX, 7Ah
 OR AX,BX
+```
 
 # Output
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/49720e2f-ee40-4d2e-89af-69467f29397d" />
 
 ## XOR alp
+```
 MOV AX, 01h
 MOV BX, 45h
 XOR AX,BX
-
+```
 
 # Output
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aee8ddcf-e010-4dca-89ab-c30eb8d7ba50" />
 
 ## NOT alp
+```
 MOV AX, 06h
 MOV BX, 0Ah
 NOT BX
+```
 
 # Output
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d0294c13-ae58-4d1f-ae54-25480b10c82b" />
